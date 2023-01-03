@@ -41,6 +41,8 @@ switch (volba.KeyChar)
         TextCopy.ClipboardService.SetText(certBase64);
         break;
 }
-
+Console.WriteLine();
+Console.WriteLine("⚠️ Value was copied to clipboard. ⚠️");
+Console.WriteLine();
 Console.WriteLine("Press any key to continue.");
 Console.ReadLine();
